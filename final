@@ -1,0 +1,32 @@
+/* I was asked to create a program that would generate the number of coins associated to any amount of cents.
+For example, the user would input 5 different amount of cents and my program would display the number of coins (quarters, dimes, nickel, penny) 
+needed for every amount */
+
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include<sstream>
+#include "coins.h"
+using namespace std;
+
+void MainCoin(double coin1,double coin2,double coin3,double coin4,double coin5=0){
+    Coins(coin1);
+    Coins(coin2);
+    Coins(coin3);
+    Coins(coin4);
+    Coins(coin5);
+}
+
+int main(){
+    double coin1,coin2,coin3,coin4,coin5;
+    int CoinNumber;
+            cout << "Enter your different amounts"<< endl;
+            cin >> coin1;
+            cin >> coin2;
+            cin >> coin3;
+            cin >> coin4;
+            cin >> coin5;
+            MainCoin(coin1,coin2,coin3,coin4,coin5); 
+    
+    return 0;
+}
