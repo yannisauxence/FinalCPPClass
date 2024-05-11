@@ -1,6 +1,6 @@
 /* I was asked to create a program to generate the number of coins associated with any amount of cents.
-For example, the user would input 5 different amounts of cents and my program would display the number of coins (quarters, dimes, nickel, penny) 
-needed for every amount */
+For example, the user would input 5 different amounts of cents and my program would display the number of coins 
+(quarters, dimes, nickel, penny) needed for every amount */
 
 #include <stdio.h>
 #include <iostream>
