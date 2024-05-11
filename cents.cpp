@@ -5,6 +5,7 @@
 #include "coins.h"
 using namespace std;
 
+// Function to determine the number of quarters contained in the dollar amount entered by the user
 int CoinQuart(double coin){
     int CoinNumQuarter;
     if(coin>=0.75){
@@ -21,6 +22,8 @@ int CoinQuart(double coin){
     }
     return CoinNumQuarter;
 }
+
+// Function to determine the number of dimes contained in the dollar amount entered by the user
 int CoinDim(double coin){
     int CoinNumDime;
     if(coin>=0.20){
@@ -35,6 +38,7 @@ int CoinDim(double coin){
     return CoinNumDime;
 }
 
+// Function to determine the number of nickels contained in the dollar amount entered by the user
 int CoinNick(double coin){
     int CoinNumNickel;
     if(coin>=0.05){
@@ -46,6 +50,7 @@ int CoinNick(double coin){
     return CoinNumNickel;
 }
 
+// Function to determine the number of pennies contained in the dollar amount entered by the user
 int CoinPenny(float coin){
     int CoinNumPenny;
     if(coin==0){
@@ -59,6 +64,9 @@ int CoinPenny(float coin){
     }
     return CoinNumPenny;
 }
+
+/* This function computes and displays the total number of quarters, dimes, nickels, and pennies
+contained in a specific dollar amount entered by the user */
 
 void Coins(double coina){
     string CoinNameq="quarters";
