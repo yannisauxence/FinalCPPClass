@@ -9,6 +9,8 @@ For example, the user would input 5 different amounts of cents and my program wo
 #include "coins.h"
 using namespace std;
 
+/* This function computes and displays the total number of quarters, dimes, nickels, and pennies
+contained in a specific dollar amount entered by the user */
 void MainCoin(double coin1,double coin2,double coin3,double coin4,double coin5=0){
     Coins(coin1);
     Coins(coin2);
